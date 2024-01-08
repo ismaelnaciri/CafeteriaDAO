@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@+id/mealFragment">
+
+    <fragment
+        android:id="@+id/mealFragment"
+        android:name="cat.insvidreres.inf.cafeteria.afterVerification.mealFragment.MealFragment"
+        android:label="fragment_meal"
+        tools:layout="@layout/fragment_meal" />
+    <fragment
+        android:id="@+id/drinkFragment"
+        android:name="cat.insvidreres.inf.cafeteria.afterVerification.drinkFragment.DrinkFragment"
+        android:label="fragment_drink"
+        tools:layout="@layout/fragment_drink" />
+    <fragment
+        android:id="@+id/payFragment"
+        android:name="cat.insvidreres.inf.cafeteria.afterVerification.payFragment.PayFragment"
+        android:label="fragment_pay"
+        tools:layout="@layout/fragment_pay" />
+</navigation>

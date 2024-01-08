@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:label="@string/app_name"
+        android:icon="@drawable/pngtree_coffee_logo_design_png_image_3373121_removebg_preview"
+        android:roundIcon="@drawable/pngtree_coffee_logo_design_png_image_3373121_removebg_preview"
+        android:supportsRtl="true"
+        android:forceDarkAllowed="false"
+        android:theme="@style/Theme.Cafeteria"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".afterVerification.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".verification.register.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".verification.login.LoginActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

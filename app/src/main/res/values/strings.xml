@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cafeteria</string>
+    <string name="splash_title">Cafeteria</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+    <string name="bottom_menu_food">Food</string>
+    <string name="bottom_menu_drinks">Drinks</string>
+    <string name="bottom_menu_checkout">Checkout</string>
+    <string name="order">Order</string>
+    <string name="total">Total: %s €</string>
+    <string name="login">Login</string>
+    <string name="registerTitle">Register</string>
+</resources>

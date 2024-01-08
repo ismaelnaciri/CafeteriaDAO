@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mealFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_lunch_dining_24"
+        android:title="@string/bottom_menu_food" />
+
+    <item
+        android:id="@+id/drinkFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_local_cafe_24"
+        android:title="@string/bottom_menu_drinks" />
+
+    <item
+        android:id="@+id/payFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_attach_money_24"
+        android:title="@string/bottom_menu_checkout" />
+</menu>
